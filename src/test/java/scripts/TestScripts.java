@@ -42,11 +42,11 @@ public class TestScripts extends BaseTest{
 		pi.clickPim_Menu();
 		pi.clickAddEmpList();
 		Thread.sleep(3000);
-		pi.clickEmpCheckBox("Pratibha");
+		pi.clickEmpCheckBox("Prati");
 		Thread.sleep(3000);
 		pi.clickDelete();
 		pi.clickOK();
-		pi.verifyEmpIsNotPresent("Pratibha");
+		pi.verifyEmpIsNotPresent("Prati");
 	}
 
 	// To sort the listbox
