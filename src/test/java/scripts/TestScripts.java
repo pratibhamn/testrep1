@@ -25,11 +25,11 @@ public class TestScripts extends BaseTest{
 		Thread.sleep(2000);
 		pi.clickAddEmp_Menu();
 		Thread.sleep(3000);
-		pi.setFirstName("Pratibha");
+		pi.setFirstName("Prat");
 		pi.setLastName("m");
 		Thread.sleep(2000);
 		pi.clickSaveBtn();
-		pi.verifyFirstName("Pratibha");
+		pi.verifyFirstName("Prat");
 	}
 	// To delete an employee
 	@Test(enabled=false)
